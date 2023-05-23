@@ -1,0 +1,40 @@
+.input_field{
+    margin: 10px 10px;
+}
+
+.inputField{
+    width: 20%;
+    height: 30px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+}
+@media (max-width: 591px) {
+    .inputField {
+      width: 80%;
+    }
+  }
+.custom-inputf {
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+  }
+.custom-searchbar {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.custom-submit-button {
+    width: 40%;
+}
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 15px;
+}
+
+

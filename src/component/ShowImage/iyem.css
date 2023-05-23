@@ -1,0 +1,16 @@
+.custom-input {
+ /* width: 100%; */
+  width: 620px;
+  height: 330px;
+}
+
+@media (max-width: 1280px) {
+  .custom-input {
+    max-width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .custom-input {
+    max-width: 100%;
+  }
+}
